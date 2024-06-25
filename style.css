@@ -79,18 +79,11 @@ img {
 
 }
 
-/* .logo img {
-    width: 10%;
-    height: 10%;
-    /* display: block;
-    margin-left: auto;
-    margin-right: auto; */
- */
-
 .sidebar {
     height:87vh;
-    width:13vw;
+    width:20vw;
     background-color: aqua;
+    padding:0;
 }
 
 .sidebar h2 {
@@ -108,6 +101,7 @@ img {
 .sidebar ul li {
     margin: 15px 0;
     border-bottom: 1px solid #555;
+    padding: 0;
 }
 
 .sidebar ul li a {
@@ -124,12 +118,16 @@ img {
 .objectives {
     color: black;
     margin-top: 5px;
+    font-size: 1.4vw;
+    margin-bottom: 0px;
+    padding: 0;
 }
 
 .objectives a {
     color: black;
     text-decoration: none;
     margin-top: 0px;
+    margin-left: 0px;
 }
 
 .objectives a:visited {
@@ -144,10 +142,20 @@ img {
     max-height: 0;
     opacity: 0;
     overflow: hidden;
-    transition: max-height 0.5s ease, opacity 0.5s ease;
-    padding-left: 20px;
-    margin-top: 5px;
+    transition: max-height 0.5s ease, opacity 1s ease;
+    margin-top: 0px;
+    padding-top: 0px;
+    text-align: left;
+    padding-left: 0px;
+
 }
+
+.objectives a.selected {
+    background-color: #444; /* Change background color when selected */
+    color: white; /* Optional: change text color for contrast */
+}
+
+
 
 .dropdown-content li {
     margin: 10px 0;
@@ -157,9 +165,12 @@ img {
 
 .dropdown-btn {
     display: block;
-    font-size: 30px;
+    font-size: 2vw;
     text-align: left; /* Align text to the left */
-    margin-left: 10px;
+    margin-left: 0px;
+    margin-top:10px;
+    text-align: left;
+    padding-left: 0px;
 
 }
 
@@ -187,8 +198,13 @@ img {
 
 
 .title_text {
-    font-size: 50px;
+    
+    font-size: 3vw;
     text-align: center;
+
+    border-bottom: 15px solid purple;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .dropdown a {
@@ -202,4 +218,19 @@ img {
 .dropdown {
     margin-top: 10px;
 }
+
+.dropdown-btn .unit {
+    font-weight: bold;
+    color: #ff5733; /* Example color for Unit */
+
+}
+
+.dropdown-btn .topic {
+    font-style: italic;
+    color: #33aaff; /* Example color for Topic */
+}
+
+
+
+
 
