@@ -1,0 +1,25 @@
+.study-button {
+    /* width: 100%;
+    height: 400px;
+    border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.start-studying {
+    /* border: 5px solid #BDD4E7; */
+    background-color: #BDD4E7;
+    padding-top: 0px;
+    border: none;
+    color: #212227;
+    padding: 15px 32px;
+    text-align: center;
+
+    text-decoration: none;
+    display: inline-block;
+    font-size: 70px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
