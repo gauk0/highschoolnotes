@@ -48,11 +48,16 @@
     /* display: grid;
     grid-template-columns: 1fr 1fr; */
     vertical-align: middle;
-
+    display: flex;
+    /* grid-template-columns: 1fr 1fr 1fr; */
   }
+
+  /* .navbar a {
+
+  } */
   
-  .navbar a {
-    float: right;
+  .navbar p {
+    float: middle;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -63,7 +68,7 @@
 
   }
   
-  .navbar a:hover {
+  .navbar p:hover {
     background-color: #F4EDED;
     color: black;
   }
@@ -107,7 +112,7 @@
 
 .bottom-bar {
   display: grid;
-  background-color: rgba(26, 147, 111, 0.2);
+  background-color: #264653;
   align-items: center;
   vertical-align: middle;
   grid-template-columns: 1fr 1fr 1fr;
