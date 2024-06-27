@@ -1,3 +1,7 @@
+@font-face { font-family: Inter; src: url('fonts/Inter-Regular.ttf'); } 
+@font-face { font-family: PlayfairDisplay; src: url('fonts/PlayfairDisplay-Regular.ttf'); } 
+
+ 
  .study-button {
     /* width: 100%;
     height: 400px;
@@ -5,7 +9,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #EDDEA4;
+    background-color: rgba(26, 147, 111, 0.2);
 
 
 }
@@ -22,10 +26,11 @@
 
 .start-studying {
     /* border: 5px solid #BDD4E7; */
-    border: 5px solid #F7A072;
+    border: 5px solid #F4A261;
+    background-color: #E76F51;
     padding-top: 10px;
     /* border: none; */
-    color: #F7A072;
+    color: white;
     padding: 30px 45px;
     text-align: center;
 
@@ -39,7 +44,7 @@
 
 
 .navbar {
-    background-color: #00A7E1;
+    background-color: #264653;
     /* display: grid;
     grid-template-columns: 1fr 1fr; */
     vertical-align: middle;
@@ -48,12 +53,13 @@
   
   .navbar a {
     float: right;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 25px;
     vertical-align: middle;
+    font-family: Inter;
 
   }
   
@@ -69,26 +75,42 @@
     color: white;
   } */
 
-  .Nervous h2 {
-    font-size: 400%;
-  
+
+  .star-title {
+    /* position: absolute; */
+    width: 500px;
+    height: 200x;
+    padding-left: 8%;
+    padding-right: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%
+
   }
 
 .Nervous {
     display: grid;
-    background-color: #EDDEA4;
+    background-color: rgba(26, 147, 111, 0.2);
     align-items: center;
     vertical-align: middle;
     grid-template-columns: 1fr 1fr;
     column-gap: 5px;
+    /* font-family: Play; */
+}
+
+.Nervous h2 {
+  font-size: 400%;
+  font-family: PlayfairDisplay;
+  position: relative;
+  top: -120px;
+
 }
 
 .bottom-bar {
   display: grid;
-  background-color: #00A7E1;
+  background-color: rgba(26, 147, 111, 0.2);
   align-items: center;
   vertical-align: middle;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   column-gap: 5px;
 }
 
@@ -96,19 +118,32 @@
   padding-top: 5px;
   padding-bottom: 5px;
   text-align: center;
+  color: white;
+  font-size: 20px;
+
 
 }
 
 .courses {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #EDDEA4;
+  background-color: rgba(26, 147, 111, 0.2);
 
 }
 
-.inspiration h3 {
+/* .inspiration h3 {
   padding-top: 50px;
   padding-bottom: 50px;
+  font-family: Inter;
+} */
+
+.AandFive {
+  padding-top: 50px;
+}
+
+.whoItsBy-title {
+  padding-bottom: 50px;
+
 }
 
 .courses h2 {
@@ -120,22 +155,21 @@
 
 .course-list button {
       /* border: 5px solid #BDD4E7; */
-      border: 5px solid #3D348B;
+      border: 5px solid #2A9D8F;
       padding-top: 10px;
       /* border: none; */
-      color: #3D348B;
+      color: #2A9D8F;
       padding: 30px 45px;
       text-align: center;
   
       text-decoration: none;
       display: inline-block;
-      font-size: 30px;
+      font-size: 20px;
       margin: 10px 10px;
       cursor: pointer;
       border-radius: 50px;
       /* display: grid;
       grid-template-columns: 1fr 1fr 1fr; */
-
 }
 
 .course-list {
@@ -143,6 +177,15 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: center;
   justify-content: center;
-  background-color: #EDDEA4;
+  background-color: rgba(26, 147, 111, 0.2);
 
+}
+
+.nervous-image{
+  width: 557px;
+  height: 368px;
+  padding-left: 0%;
+  padding-right: 0%;
+  padding-top: 5%;
+  padding-bottom: 5%
 }
