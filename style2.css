@@ -15,12 +15,12 @@
 }
 
 .navbar img {
-  padding-left: 20px;
+  padding-left: 0px;
   padding-right: 1%;
   padding-top: 0px;
   padding-bottom: 0px;
-  width: 150px;
-  height: 105px;
+  width: 107px;
+  height: 75px;
 }
 
 
@@ -57,10 +57,10 @@
   } */
   
   .navbar p {
-    float: middle;
+    float: left;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 30px;
     text-decoration: none;
     font-size: 25px;
     vertical-align: middle;
@@ -83,9 +83,9 @@
 
   .star-title {
     /* position: absolute; */
-    width: 500px;
-    height: 200x;
-    padding-left: 8%;
+    width: 300px;
+    height: auto;
+    padding-left: 0%;
     padding-right: 0%;
     padding-top: 0%;
     padding-bottom: 0%
@@ -93,20 +93,14 @@
   }
 
 .Nervous {
-    display: grid;
     background-color: rgba(26, 147, 111, 0.2);
-    align-items: center;
-    vertical-align: middle;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 5px;
     /* font-family: Play; */
 }
 
 .Nervous h2 {
-  font-size: 400%;
+  font-size: 200%;
   font-family: PlayfairDisplay;
-  position: relative;
-  top: -120px;
+  top: -70px;
 
 }
 
@@ -179,7 +173,7 @@
 
 .course-list {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   align-items: center;
   justify-content: center;
   background-color: rgba(26, 147, 111, 0.2);
@@ -187,10 +181,76 @@
 }
 
 .nervous-image{
-  width: 557px;
-  height: 368px;
+  width: 371px;
+  height: auto;
   padding-left: 0%;
   padding-right: 0%;
-  padding-top: 5%;
+  padding-top: 0%;
   padding-bottom: 5%
+}
+
+
+@media (min-width: 900px) {
+  .navbar img {
+    padding-left: 20px;
+    padding-right: 5%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 150px;
+    height: 105px;
+  }
+
+  .navbar p {
+    float: middle;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    vertical-align: middle;
+    font-family: Inter;
+
+  }
+
+  .Nervous {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+    /* font-family: Play; */
+  }
+
+  .nervous-image{
+    width: 557px;
+    height: 368px;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 5%;
+    padding-bottom: 5%
+  }
+  
+  .Nervous h2 {
+    font-size: 400%;
+
+  }
+
+  .course-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(26, 147, 111, 0.2);
+  
+  }
+
+  .star-title {
+    /* position: absolute; */
+    width: 500px;
+    height: auto;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%
+
+  }
+
 }
