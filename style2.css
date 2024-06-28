@@ -1,6 +1,5 @@
-@font-face { font-family: Inter; src: url('fonts/Inter-Regular.ttf'); } 
-@font-face { font-family: PlayfairDisplay; src: url('fonts/PlayfairDisplay-Regular.ttf'); } 
-
+@font-face { font-family: Tinos; src: url('fonts/Tinos-Regular.ttf'); } 
+@font-face { font-family: Tinos-BoldItalic; src: url('fonts/Tinos-BoldItalic.ttf'); } 
  
  .study-button {
     /* width: 100%;
@@ -33,6 +32,7 @@
     color: white;
     padding: 30px 45px;
     text-align: center;
+    font-family: Tinos;
 
     text-decoration: none;
     display: inline-block;
@@ -64,8 +64,7 @@
     text-decoration: none;
     font-size: 25px;
     vertical-align: middle;
-    font-family: Inter;
-
+    font-family: Tinos;
   }
   
   .navbar p:hover {
@@ -94,15 +93,16 @@
 
 .Nervous {
     background-color: rgba(26, 147, 111, 0.2);
-    /* font-family: Play; */
+    /* font-family: Tinos-BoldItalic; */
 }
 
 .Nervous h2 {
   font-size: 200%;
-  font-family: PlayfairDisplay;
+  /* font-family: PlayfairDisplay; */
   top: -70px;
   /* padding-bottom: -100px; */
   margin-bottom: 0px;
+  font-family: Tinos-BoldItalic;
 }
 
 .bottom-bar {
@@ -120,6 +120,7 @@
   text-align: center;
   color: white;
   font-size: 20px;
+  font-family: Tinos;
 
 
 }
@@ -139,10 +140,12 @@
 
 .AandFive {
   padding-top: 50px;
+  font-family: Tinos;
 }
 
 .whoItsBy-title {
   padding-bottom: 50px;
+  font-family: Tinos;
 
 }
 
@@ -150,6 +153,7 @@
   font-size: 40px;
   text-align: center;
   padding-left: 0px;
+  font-family: Tinos
 
 }
 
@@ -161,6 +165,8 @@
       color: #2A9D8F;
       padding: 30px 45px;
       text-align: center;
+      font-family: Tinos;
+
   
       text-decoration: none;
       display: inline-block;
@@ -213,7 +219,7 @@
     text-decoration: none;
     font-size: 25px;
     vertical-align: middle;
-    font-family: Inter;
+    font-family: Tinos;
 
   }
 
@@ -221,7 +227,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 5px;
-    /* font-family: Play; */
+    font-family: Tinos;
   }
 
   .nervous-image{
@@ -235,6 +241,7 @@
   
   .Nervous h2 {
     font-size: 400%;
+    font-family: Tinos-BoldItalic;
 
   }
 
