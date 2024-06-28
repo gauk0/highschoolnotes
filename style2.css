@@ -1,5 +1,7 @@
 @font-face { font-family: Tinos; src: url('fonts/Tinos-Regular.ttf'); } 
 @font-face { font-family: Tinos-BoldItalic; src: url('fonts/Tinos-BoldItalic.ttf'); } 
+@font-face { font-family: Tinos-Bold; src: url('fonts/Tinos-Bold.ttf'); } 
+
  
  .study-button {
     /* width: 100%;
@@ -9,6 +11,7 @@
     align-items: center;
     justify-content: center;
     background-color: rgba(26, 147, 111, 0.2);
+    /* fil; */
 
 
 }
@@ -105,7 +108,7 @@
   font-family: Tinos-BoldItalic;
 }
 
-.bottom-bar {
+.bottom-bar-links {
   display: grid;
   background-color: #264653;
   align-items: center;
@@ -114,7 +117,7 @@
   column-gap: 5px;
 }
 
-.bottom-bar p {
+.bottom-bar-links p {
   padding-top: 5px;
   padding-bottom: 5px;
   text-align: center;
@@ -125,11 +128,36 @@
 
 }
 
+.bottom-bar {
+  background-color: #264653;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+
+}
+
 .courses {
   padding-top: 30px;
   padding-bottom: 30px;
+  /* background-color: rgba(26, 147, 111, 0.2); */
   background-color: rgba(26, 147, 111, 0.2);
+}
 
+
+.h3 {
+  font-size: 50px;
+  font-family: Tinos-Bold;
+}
+
+.quote {
+  background-color: #F4A261;
+  text-align: center;
+  border-radius: 50px;
+  padding: 50px;
+  color: white;
+  font: Tinos;
+  
 }
 
 /* .inspiration h3 {
@@ -149,21 +177,22 @@
 
 }
 
-.courses h2 {
-  font-size: 40px;
+/* .courses h2 {
+  font-size: 50px;
   text-align: center;
   padding-left: 0px;
-  font-family: Tinos
+  font-family: Tinos-Bold;
+  
 
-}
+} */
 
-.course-list button {
+.course-list a button {
       /* border: 5px solid #BDD4E7; */
-      border: 5px solid #2A9D8F;
+      border: 2px solid #264653;
       padding-top: 10px;
       /* border: none; */
-      color: #2A9D8F;
-      padding: 30px 45px;
+      color: #264653;
+      padding: 10px 7px 10px 40px;
       text-align: center;
       font-family: Tinos;
 
@@ -178,12 +207,15 @@
       grid-template-columns: 1fr 1fr 1fr; */
 }
 
-.course-list {
+
+
+
+.course-list a {
   display: grid;
-  grid-template-columns: 1fr;
   align-items: center;
   justify-content: center;
-  background-color: rgba(26, 147, 111, 0.2);
+  /* background-color: rgba(26, 147, 111, 0.2); */
+  text-decoration: none;
 
 }
 
@@ -200,6 +232,15 @@
   text-align: center;
 }
 
+
+.icon img {
+  /* background: url("images/icons/chem-icon.png"); */
+  width: 25px;
+  height: auto;
+  float: left;
+  vertical-align: middle;
+  padding-right: 5px;
+}
 
 @media (min-width: 900px) {
   .navbar img {
@@ -248,9 +289,11 @@
   .course-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0% 10%;
     align-items: center;
     justify-content: center;
-    background-color: rgba(26, 147, 111, 0.2);
+    /* background-color: rgba(26, 147, 111, 0.2); */
+    /* flex: 2 1 50%%; */
   
   }
 
@@ -263,6 +306,13 @@
     padding-top: 0%;
     padding-bottom: 0%
 
+  }
+
+  .quote-format {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    padding: 0% 20% 0% 20%;
+    grid-gap: 10%;
   }
 
 }
