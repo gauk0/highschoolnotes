@@ -125,6 +125,11 @@
   font-size: 20px;
   font-family: Tinos;
 
+}
+
+
+.bottom-bar-links a {
+  text-decoration: none;
 
 }
 
