@@ -26,6 +26,14 @@
 }
 
 
+.about-title h2 {
+  /* background-color: white; */
+  text-align: center;
+  padding-left: 0%;
+
+}
+
+
 .start-studying {
     /* border: 5px solid #BDD4E7; */
     border: 5px solid #F4A261;
@@ -107,6 +115,18 @@
   margin-bottom: 0px;
   font-family: Tinos-BoldItalic;
 }
+
+.person-1 {
+  background-color: rgba(26, 147, 111, 0.2);
+}  
+
+.person-1 p {
+    font-family: Tinos;
+    padding: 10%;
+    font-size: 25px;
+  
+}
+
 
 .bottom-bar-links {
   display: grid;
@@ -301,6 +321,21 @@
     /* flex: 2 1 50%%; */
   
   }
+
+  .person-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+    font-family: Tinos
+  }
+
+  .person-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+    font-family: Tinos
+  }
+
 
   .star-title {
     /* position: absolute; */
