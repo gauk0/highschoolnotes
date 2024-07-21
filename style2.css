@@ -292,6 +292,10 @@ html {
   display: block; /* Show dropdown content when .show is added */
 }
 
+.all-content {
+  display: flex;
+}
+
 @media (min-width: 900px) {
   .navbar img {
     padding-left: 20px;
